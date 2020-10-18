@@ -16,17 +16,6 @@ fieldset + fieldset {
   margin-top: 8rem;
 }
 
-fieldset legend {
-  width: 100%;
-  font-size: 3.2rem;
-  line-height: 1.5;
-  color: #5c8599;
-  font-weight: 700;
-  border-bottom: 1px solid #d3e2e5;
-  margin-bottom: 4rem;
-  padding-bottom: 2.4rem;
-}
-
 .input-block + .input-block {
   margin-top: 2.4rem;
 }
@@ -62,7 +51,6 @@ fieldset legend {
 
 .input-block input {
   height: 6.4rem;
-  padding: 0 1.6rem;
 }
 
 .input-block textarea {
@@ -108,10 +96,4 @@ fieldset legend {
   padding: .6rem;
   cursor: pointer;
   display: flex;
-}
-
-@media (max-width: 840px) {
-  legend {
-    text-align: center;
-  }
 }
