@@ -20,6 +20,11 @@ h1,
   animation-delay: 50ms;
 }
 
+div {
+  display: flex;
+  justify-content: space-between;
+}
+
 .location {
   animation-delay: 100ms;
 }
