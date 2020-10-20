@@ -23,4 +23,4 @@ server
   .post("/create-orphanage", pages.saveOrphanage)
 
 /* Ligando o servidor */
-server.listen(5500, () => console.log("Servidor rodando na porta 5500"));
+server.listen(process.env.PORT || 5500, () => console.log("Servidor rodando na porta 5500"));
